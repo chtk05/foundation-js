@@ -1,9 +1,10 @@
-const fooddie = ["Noodle", "Pasta", "Rice", "Fish"];
+// ARRAY Manipulation
+// const fooddie = ["Noodle", "Pasta", "Rice", "Fish"];
 
-console.log(`My favorite food is in ${fooddie.indexOf("Rice")} index`);
-fooddie.push("Cola", "Pancake", "Chocolate");
-console.log(`My favorite food and desserts are ${fooddie}`);
-console.log(`Is it contain my favorite food : ${fooddie.includes("Rice")}`);
+// console.log(`My favorite food is in ${fooddie.indexOf("Rice")} index`);
+// fooddie.push("Cola", "Pancake", "Chocolate");
+// console.log(`My favorite food and desserts are ${fooddie}`);
+// console.log(`Is it contain my favorite food : ${fooddie.includes("Rice")}`);
 
 // const myArr = ["PARN", 23, 555, "hello"];
 // myArr.push("Blue");
