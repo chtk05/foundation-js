@@ -27,3 +27,21 @@ const newPrices = prices.map((price) => {
   return price * 1.5;
 });
 console.log(newPrices);
+
+//.filter() return filtered array
+const updatePrice = newPrices.filter((price) => {
+  return price > 30;
+});
+
+console.log(updatePrice);
+
+//.reduce return
+const sum = prices.reduce((prevVal, price) => {
+  return prevVal + price;
+});
+console.log("Sum prices :", sum);
+
+const newSum = prices.reduce((prevVal, price) => {
+  return prevVal + price;
+}, 10);
+console.log("New sum price:", newSum);
